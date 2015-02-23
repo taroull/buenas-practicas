@@ -1,21 +1,22 @@
 !!!5
-html(lang="en")
+html(lang="es")
   head
     title #{ name }
+    meta(charset="utf-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800')
-    link(rel="stylesheet", href="/bp/css/main.css")
-    link(rel="stylesheet", href="/bp/css/responsive.css")
-    link(rel="stylesheet", href="/bp/fontawesome/less/font-awesome.css")
+    link(rel="stylesheet", href="./css/main.css")
+    link(rel="stylesheet", href="./css/responsive.css")
+    link(rel="stylesheet", href="./fontawesome/less/font-awesome.css")
   body
-    !=partial("/bp/_shared/nav")
+    !=partial("/_shared/nav")
     .container-fluid
       .row-fluid
         .span3
-          !=partial("/bp/_shared/index")
+          !=partial("/_shared/index")
         .span9
           .main-content
             !=yield
-    !=partial("/bp/_shared/footer")
-    script(src="/bp/_bootstrap/docs/assets/js/jquery.js").
-    script(src="/bp/_bootstrap/docs/assets/js/bootstrap.js");
+    !=partial("/_shared/footer")
+    script(src="./_bootstrap/docs/assets/js/jquery.js").
+    script(src="./_bootstrap/docs/assets/js/bootstrap.js");
