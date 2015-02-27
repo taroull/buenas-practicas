@@ -1,19 +1,77 @@
 :markdown
-	## Adding Metadata
-	> "Metadata is a love note to the future."
-	>
-	> -- Jason Scott, Creator, Owner & Maintainer of [textfiles.com](http://textfiles.com)
+	## Añadir metadatos
 
-	If you don’t tell recipients of your data what it is, how it can be used, or anything about its currentness, how can we expect them to use it effectively?  
+  Si no les decimos a los usuarios de los datos lo que son, cómo se usan, o algo acerca de su actualidad, ¿cómo podemos esperar que los usen de forma efectiva? 
+  
+  Los metadatos, o información descriptiva sobre los datos, acompañan a los datos proporcionando información adicional para facilitar su localización, clasificación y reutilización. Proporcionar un buen número de metadatos es importante, si bien lo es más hacerlo correctamente. La Norma Técnica de Interoperabilidad de Reutilización de Información del Sector Público (NTI-RISP) especifica cómo hacerlo y los diferentes metadatos que podemos proporcionar:
 
-	Metadata, or descriptive information about data, is common among geospatial data (i.e., GIS layers) and other data sets due to their complexity. Typically included in geospatial metadata is the following content: a descriptive summary file and its primary uses; methods of creation; changes (if the file is routinely updated); contact information; geographic references, and most critically - dates indicating for when the data was captured and/or prepared.  
+  table.table-striped
+    thead
+      tr
+        th Conjuntos de datos
+      tr
+        th Metadatos obligatorios
+        th Metadatos recomendados
+        th Metadatos opcionales        
+    tbody
+      tr
+        td Nombre
+        td Etiqueta(s)
+        td Fecha de creación
+      tr
+        td Descripción
+        td Condiciones de uso / licencia
+        td Fecha de la última actualización
+      tr
+        td Temática(s)
+        td Organismo
+        td Idioma(s)
+      tr
+        td
+        td
+        td Cobertura geográfica
+      tr
+        td
+        td
+        td Cobertura temporal
+      tr
+        td
+        td
+        td Vigencia
+      tr
+        td
+        td        
+        td Recursos relacionados
+      tr 
+        td
+        td        
+        td Normativa
+    tfoot
+      tr
+        td Tabla extraída de la guía [Cómo publicar datos abiertos de manera rápida y sencilla (con CKAN)](http://datos.gob.es/sites/default/files/guia-publicar-opendata-24h_v05.pdf) de [datos.gob.es](http://datos.gob.es)
+        
 
-	The basic tenants of metadata (what the data is, how to interpret the data for use, how the data was prepared) qualify for inclusion within all digital databases be they geographic or otherwise.  How metadata is included in a data release may vary from format to format. It can be as simple as an accompanying file (e.g., readme.txt or data dictionary PDF), or an additional table in the database or tab in an Excel spreadsheet with multiple text or note fields of descriptive and contact information. Basic content should include:
+  table.table-striped        
+    thead
+      tr
+        th Recursos ó distribuciones (archivos o enlaces con los datos)
+      tr
+        th Metadatos obligatorios
+        th Metadatos recomendados
+        th Metadatos opcionales
+    tbody
+      tr
+        td URL de acceso
+        td Nombre
+        td Tamaño
+      tr
+        td Formato
+        td
+        td Información sobre formato
+    tfoot
+      tr
+        td Tabla extraída de la guía [Cómo publicar datos abiertos de manera rápida y sencilla (con CKAN)](http://datos.gob.es/sites/default/files/guia-publicar-opendata-24h_v05.pdf) de [datos.gob.es](http://datos.gob.es)
 
-	* Data description and common useage;
-	* Date created or date range of content;
-	* Author and contact information;
-	* Descriptions of key fields and/or field codes, and;
-	* Limitations, disclaimer (if appropriate) and terms of use.
+  Si deseas ampliar esta información, puedes consultar el [Anexo III de la NTI Reutilización de recursos de información](http://www.boe.es/boe/dias/2013/03/04/pdfs/BOE-A-2013-2380.pdf) y su [guía de aplicación](http://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0CCcQFjAB&url=http%3A%2F%2Fadministracionelectronica.gob.es%2Fpae_Home%2Fdms%2Fpae_Home%2Fdocumentos%2FEstrategias%2Fpae_Interoperabilidad_Inicio%2FGuia_de_aplicacion_de_la_Norma_Tecnica_de_Interoperabilidad_de_Reutilizacion_de_recursos_de_informacion%2FGuia_aplicacion_Reutilizacion_recursos_de_informacion.pdf&ei=d1HwVOrmFoGqUJ7vgfAJ&usg=AFQjCNG85JwVt6mOdrwg6HHyqyyEdSIu4Q&sig2=6eLcW7mg9tY2zJtNCUiuYg&bvm=bv.87269000,d.d24&cad=rja).
 
-	An example of the metadata content used by the State of New York can be found in the New York State Open Data Initiative's [Open Data Handbook](http://nys-its.github.io/open-data-handbook/metadata.html). 
+  
