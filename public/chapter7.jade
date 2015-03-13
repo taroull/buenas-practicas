@@ -23,7 +23,7 @@
   
   Con el propósito de hacer lo más fácil posible la reutilización de los datos a los usuarios potenciales, éstos deberían estar disponibles en un formato abierto (no propietario) entendible por máquinas. Esto no solo facilita el procesado y análisis de cada conjunto de datos, sino que además permite la integración de los mismos.
   
-  Tim Berners-Lee, el "inventor" de la web y activo participante en el proceso de desarrollo del movimiento Open Data, definió unos niveles por estrellas que tratan de definir cuán reutilizables y abiertos son los datos en función de su formato. Los niveles son los siguientes:
+  Tim Berners-Lee, el "inventor" de la web y activo participante en el proceso de desarrollo del movimiento Open Data, definió unos niveles por estrellas (<span class="stars"><i class="icon-star"></i></span>) que tratan de definir cuán reutilizables y abiertos son los datos en función de su formato. Los niveles son los siguientes:
 
 ul.unstyled-indented
   li
@@ -68,22 +68,29 @@ ul.unstyled-indented
     span.tab Vincular los datos con los datos de otras personas/organizaciones/administraciones.
 
 :markdown
-  Toda organización que publique datos debería tratar de garantizar publicaciones de, al menos, tres estrellas.
+  Toda organización que publique datos debería tratar de garantizar publicaciones de, al menos, 
+  span.stars(title="3 estrellas")
+    i.icon-star 
+    i.icon-star
+    i.icon-star
+    i.icon-star-empty
+    i.icon-star-empty   
+  | .
   
   Algunos de los formatos más comunes que utilizan actualmente para la apertura de datos son:
   
 ul
   li 
     | No estructurados
-    span(rel="tooltip", data-toggle="tooltip", data-trigger="hover", data-placement="bottom", data-html="true", data-title='Publicaciones de <span class="stars"><i class="icon-star"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i>') <i class="icon-info-sign"></i>
+    span(rel="tooltip", data-toggle="tooltip", data-trigger="hover", data-placement="bottom", data-html="true", data-title='Formatos <span class="stars"><i class="icon-star"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i></span>') <i class="icon-info-sign"></i>
     |: PDF, DOC, ODS, ZIP.
   li 
     | Estructurados
-    span(rel="tooltip", data-toggle="tooltip", data-trigger="hover", data-placement="bottom", data-html="true", data-title='Publicaciones de entre <span class="stars"><i class="icon-star"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i> y <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i>') <i class="icon-info-sign"></i>
+    span(rel="tooltip", data-toggle="tooltip", data-trigger="hover", data-placement="bottom", data-html="true", data-title='Formatos entre <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i></span> y <span class="stars"><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i></span>') <i class="icon-info-sign"></i>
     |: HTML, XLS, XML, CSV (<strong>recomendado</strong>), JSON, RDF.
   li Información geográfica: WMS, KML, SHP, WFS, GML.
 :markdown
-  La decisión de qué formato utilizar puede estar condicionada por otros factores como la demanda de los potenciales reutilizadores. Es más, siempre que sea posible, lo más recomendable es ofrecer los datos en múltiples formatos para ampliar el público potencial.
+  La decisión sobre qué formato utilizar puede estar condicionada por otros factores como la demanda de los potenciales reutilizadores. Es más, siempre que sea posible, lo más recomendable es ofrecer los datos en múltiples formatos para ampliar el público potencial.
 
   La especificación completa sobre los formatos posibles se puede consultar en la [Norma Técnica de Interoperabilidad del Catálogo de estándares](http://www.boe.es/boe/dias/2012/10/31/pdfs/BOE-A-2012-13501.pdf)
    
