@@ -307,23 +307,22 @@ p.imagen {
 }
 
 .navbar .brand::before {
-  background: url("../img/odc-logo_neg.png") no-repeat scroll 0 0 / 100% 100% rgba(0, 0, 0, 0);
+  background: url("../img/odc-logo_neg.png") no-repeat;
+  background-size: 100% 100%;
   content: " ";
   float: left;
   height: 38px;
-  margin-left: 0px;
+  margin-left: 20px;
   margin-right: 15px;
   width: 76px;
 }
 
 .navbar .navbar-inner .brand { 
-  margin-left: 25px;
+  margin-left: 15px;
+  padding-left: 0;
 }
 
-.navbar .brand {
+.navbar .brand, .navbar .nav li {
   line-height: 38px;
 }
 
-.navbar .nav li {
-  line-height: 38px;
-}
